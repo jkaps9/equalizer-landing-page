@@ -56,6 +56,11 @@ h2 {
   display: flex;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 .btn--solid {
   display: block;
   text-decoration: none;
