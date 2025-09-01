@@ -26,11 +26,24 @@ a {
 }
 
 p {
+  font-size: clamp(1rem, 0.8742rem + 0.5369vw, 1.25rem);
   font-weight: 400;
+}
+
+footer p {
+  font-size: 1rem; /* 16px */
 }
 
 img {
   max-width: 100%;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 0.9899rem + 6.443vw, 5.5rem);
+}
+
+h2 {
+  font-size: 2.5rem; /* 40px */
 }
 
 .container {
