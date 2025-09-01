@@ -17,6 +17,12 @@ body {
   margin: 0;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 700;
+  color: var(--slate);
+}
+
+a {
+  font-family: inherit;
+  color: inherit;
 }
 
 p {
