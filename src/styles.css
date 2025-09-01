@@ -55,3 +55,20 @@ h2 {
 .row {
   display: flex;
 }
+
+.btn--solid {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--slate);
+  color: var(--white);
+  border-radius: 0.75rem;
+}
+
+.btn--solid--inverted {
+  background-color: var(--white);
+  color: var(--slate);
+}
