@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* COLORS */
+  --cyan: #66e2dc;
+  --orange: #fa7453;
+  --yellow: #ffb964;
+  --white: #fcfaf9;
+  --slate: #191826;
+}
+
 body {
   margin: 0;
   font-family: "IBM Plex Sans", sans-serif;
@@ -16,15 +25,6 @@ p {
 
 img {
   max-width: 100%;
-}
-
-:root {
-  /* COLORS */
-  --cyan: #66e2dc;
-  --orange: #fa7453;
-  --yellow: #ffb964;
-  --white: #fcfaf9;
-  --slate: #191826;
 }
 
 .container {
