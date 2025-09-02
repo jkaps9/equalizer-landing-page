@@ -162,7 +162,6 @@ header {
 }
 
 .btn--solid {
-  display: block;
   text-decoration: none;
   padding: 1rem 2rem;
   display: flex;
@@ -176,12 +175,16 @@ header {
   p {
     font-size: 1.125rem;
     font-weight: 700;
-    line-height: 1.8em;
+    line-height: 180%;
   }
 
   &:hover {
     color: var(--slate);
     background: var(--cyan);
+
+    svg > path {
+      fill: var(--slate);
+    }
   }
 }
 
