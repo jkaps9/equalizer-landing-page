@@ -200,9 +200,26 @@ header {
   .footer__content {
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    flex-grow: 1;
+    width: 100%;
   }
 
   .socials {
     align-self: center;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .footer__content {
+    flex-wrap: nowrap;
+  }
+
+  .logo {
+    flex-grow: 0;
+    width: auto;
   }
 }
