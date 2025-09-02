@@ -61,6 +61,12 @@ h2 {
   flex-direction: column;
 }
 
+/* Header */
+header {
+  background-image: url("assets/images/bg-main-mobile.png");
+  background-position: left;
+}
+
 /* Main */
 .main__background {
   background-image: url("assets/svgs/bg-pattern-2.svg");
