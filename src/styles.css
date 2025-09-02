@@ -265,6 +265,10 @@ header {
   list-style: none;
   gap: 2rem;
   padding: 0;
+
+  & > li:hover svg > path {
+    fill: var(--orange);
+  }
 }
 
 @media only screen and (min-width: 48rem) {
