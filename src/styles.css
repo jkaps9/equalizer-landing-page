@@ -108,7 +108,7 @@ header {
     background-image: url("assets/svgs/bg-pattern-1.svg"),
       url("assets/images/bg-main-mobile.png");
     background-size: auto, auto;
-    background-position: top -45% right, top right;
+    background-position: top -20% right, bottom right;
   }
 }
 
