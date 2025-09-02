@@ -65,8 +65,9 @@ h2 {
 /* Header */
 header {
   background-image: url("assets/images/bg-main-mobile.png");
-  background-position: left;
+  background-position: left 90%;
   background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .hero {
