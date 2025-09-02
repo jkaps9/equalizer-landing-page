@@ -61,6 +61,13 @@ h2 {
   flex-direction: column;
 }
 
+/* Main */
+@media only screen and (max-width: 48rem) {
+  .main__content > .container {
+    width: 100%;
+  }
+}
+
 .card {
   background: var(--orange);
   padding: clamp(3rem, 2.7483rem + 1.0738vw, 3.5rem)
