@@ -192,8 +192,26 @@ header {
 }
 
 @media only screen and (min-width: 48rem) {
+  .main__content {
+    padding: 12.5rem 0;
+  }
+
   .main__content .container {
-    display: flex;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding-right: 4rem;
+  }
+
+  .main__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
   }
 
   .card {
