@@ -181,6 +181,8 @@ header {
 }
 
 .footer__content {
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 
@@ -192,4 +194,15 @@ header {
   list-style: none;
   gap: 2rem;
   padding: 0;
+}
+
+@media only screen and (min-width: 48rem) {
+  .footer__content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .socials {
+    align-self: center;
+  }
 }
