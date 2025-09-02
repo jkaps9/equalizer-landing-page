@@ -192,8 +192,12 @@ header {
 }
 
 @media only screen and (min-width: 48rem) {
+  .hero {
+    padding-bottom: 16.5rem;
+  }
+
   .main__content {
-    padding: 12.5rem 0;
+    padding: 0 0 12.5rem;
   }
 
   .main__content .container {
