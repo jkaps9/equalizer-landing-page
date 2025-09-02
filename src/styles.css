@@ -87,9 +87,9 @@ header {
 @media only screen and (min-width: 48rem) {
   header {
     background-image: url("assets/svgs/bg-pattern-1.svg"),
-      url("assets/images/bg-main-mobile.png");
+      url("assets/images/bg-main-tablet.png");
     background-size: 30%, auto;
-    background-position: top -25% right -8%, center right;
+    background-position: top -7% right -7%, center right 25%;
   }
 }
 
@@ -106,9 +106,10 @@ header {
 @media only screen and (min-width: 64rem) {
   header {
     background-image: url("assets/svgs/bg-pattern-1.svg"),
-      url("assets/images/bg-main-mobile.png");
+      url("assets/images/bg-main-desktop.png");
     background-size: auto, auto;
-    background-position: top -20% right, bottom right;
+    background-position: top -20% right, top 25% right 50%;
+    background-repeat: no-repeat;
   }
 }
 
