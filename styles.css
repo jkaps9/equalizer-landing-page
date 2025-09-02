@@ -77,7 +77,7 @@ header {
 }
 
 .hero-wrapper.column {
-  gap: 4rem;
+  gap: clamp(4rem, 1.9866rem + 8.5906vw, 8rem);
 }
 
 .hero__content.column {
