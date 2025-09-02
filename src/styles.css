@@ -28,6 +28,7 @@ a {
 p {
   font-size: clamp(1rem, 0.8742rem + 0.5369vw, 1.25rem);
   font-weight: 400;
+  max-width: 60ch;
 }
 
 footer p {
