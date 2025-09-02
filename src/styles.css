@@ -212,6 +212,7 @@ header {
     bottom: 0;
     width: 100%;
     z-index: -1;
+    border-radius: 0.75rem;
   }
 
   .image-wrapper {
