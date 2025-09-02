@@ -178,11 +178,20 @@ header {
     font-weight: 700;
     line-height: 1.8em;
   }
+
+  &:hover {
+    color: var(--slate);
+    background: var(--cyan);
+  }
 }
 
 .btn--solid--inverted {
-  background-color: var(--white);
+  background: var(--white);
   color: var(--slate);
+
+  &:hover {
+    background: var(--yellow);
+  }
 }
 
 @media only screen and (max-width: 48rem) {
