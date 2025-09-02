@@ -104,23 +104,11 @@ header {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 48rem) {
-  .main__content > .container {
-    width: 100%;
-  }
-}
-
 .card {
   background: var(--orange);
   padding: clamp(3rem, 2.7483rem + 1.0738vw, 3.5rem)
     clamp(1.25rem, 0.1174rem + 4.8322vw, 3.5rem);
   min-height: 39rem;
-}
-
-@media only screen and (min-width: 48rem) {
-  .card {
-    border-radius: 1rem;
-  }
 }
 
 .card.column {
@@ -172,4 +160,16 @@ header {
 .btn--solid--inverted {
   background-color: var(--white);
   color: var(--slate);
+}
+
+@media only screen and (max-width: 48rem) {
+  .main__content > .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .card {
+    border-radius: 1rem;
+  }
 }
