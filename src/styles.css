@@ -86,6 +86,26 @@ header {
   header {
     background-image: url("assets/svgs/bg-pattern-1.svg"),
       url("assets/images/bg-main-mobile.png");
+    background-size: 30%, auto;
+    background-position: top -25% right -8%, center right;
+  }
+}
+
+@media only screen and (min-width: 48rem) and (max-width: 63.5rem) {
+  h1 {
+    max-width: 15ch;
+  }
+
+  p {
+    max-width: 46ch;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  header {
+    background-image: url("assets/svgs/bg-pattern-1.svg"),
+      url("assets/images/bg-main-mobile.png");
+    background-size: auto, auto;
     background-position: top -45% right, top right;
   }
 }
