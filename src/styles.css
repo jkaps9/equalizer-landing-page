@@ -214,6 +214,14 @@ header {
     z-index: -1;
   }
 
+  .image-wrapper {
+    margin-top: -7.5rem;
+  }
+
+  .card-wrapper {
+    margin-bottom: -7.5rem;
+  }
+
   .card {
     border-radius: 1rem;
   }
