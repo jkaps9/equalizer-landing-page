@@ -174,3 +174,22 @@ header {
     border-radius: 1rem;
   }
 }
+
+/* Footer */
+.footer {
+  padding: 4rem 0 5rem;
+}
+
+.footer__content {
+  gap: 2rem;
+}
+
+.footer__email {
+  text-decoration: none;
+}
+
+.socials {
+  list-style: none;
+  gap: 2rem;
+  padding: 0;
+}
