@@ -192,6 +192,10 @@ header {
 }
 
 @media only screen and (min-width: 48rem) {
+  .main__content .container {
+    display: flex;
+  }
+
   .card {
     border-radius: 1rem;
   }
