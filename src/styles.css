@@ -117,7 +117,7 @@ header {
   background-image: url("assets/svgs/bg-pattern-2.svg");
   background-color: var(--slate);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
   background-position: top center;
 }
 
@@ -215,10 +215,15 @@ header {
   }
 
   .image-wrapper {
-    margin-top: -7.5rem;
+    margin-top: -6.875rem;
+  }
+
+  .phone-img {
+    max-width: 61%;
   }
 
   .card-wrapper {
+    margin-top: 5.25rem;
     margin-bottom: -7.5rem;
   }
 
