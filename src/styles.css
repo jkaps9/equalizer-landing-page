@@ -84,9 +84,9 @@ header {
 
 @media only screen and (min-width: 48rem) {
   header {
-    background-image: url("assets/images/bg-main-mobile.png"),
-      url("assets/svgs/bg-pattern-1.svg");
-    background-position: top right;
+    background-image: url("assets/svgs/bg-pattern-1.svg"),
+      url("assets/images/bg-main-mobile.png");
+    background-position: top -45% right, top right;
   }
 }
 
