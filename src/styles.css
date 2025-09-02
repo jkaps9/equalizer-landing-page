@@ -63,7 +63,8 @@ h2 {
 
 .card {
   background: var(--orange);
-  padding: 3rem 1rem;
+  padding: clamp(3rem, 2.7483rem + 1.0738vw, 3.5rem)
+    clamp(1.25rem, 0.1174rem + 4.8322vw, 3.5rem);
 }
 
 .card.column {
