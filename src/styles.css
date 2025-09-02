@@ -65,6 +65,7 @@ h2 {
 header {
   background-image: url("assets/images/bg-main-mobile.png");
   background-position: left;
+  background-repeat: no-repeat;
 }
 
 .hero {
@@ -77,6 +78,14 @@ header {
 
 .hero__content.column {
   gap: 2.5rem;
+}
+
+@media only screen and (min-width: 48rem) {
+  header {
+    background-image: url("assets/images/bg-main-mobile.png"),
+      url("assets/svgs/bg-pattern-1.svg");
+    background-position: top right;
+  }
 }
 
 /* Main */
